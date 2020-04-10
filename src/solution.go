@@ -5,5 +5,9 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello World!")
+	fmt.Println(isPandigital(1234567891))
+}
+
+func isPandigital(number uint64) bool {
+	return false
 }
