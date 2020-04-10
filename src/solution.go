@@ -9,9 +9,6 @@ func main() {
 }
 
 func isPandigital(number uint64) bool {
-	// Temporary store
-	var index uint64
-
 	// Create an array with 10 elements initialized to zero
 	// We'll use this to track the number of times a digit (0 - 9) appears in the
 	// result array
@@ -19,7 +16,7 @@ func isPandigital(number uint64) bool {
 
 	for number > 0 {
 		// We get the last digit of the number (it will be in the range 0 - 9)
-		index = number % 10
+		index := number % 10
 
 		// We add one to the index (last digit). The reason being. If a number is a pandigital
 		// by the end of the iteration, every index's value should be at least one. If there's an index
