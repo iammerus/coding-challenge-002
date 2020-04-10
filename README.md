@@ -25,7 +25,7 @@ You need to have [https://golang.org/](Go) installed on your local machine
 
 1. Clone this repository
 ```
-git clone https://github.com/iammerus/coding-challenge-001
+git clone https://github.com/iammerus/coding-challenge-002
 ```
 
 2. Run the tests
